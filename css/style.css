@@ -1,0 +1,166 @@
+body {
+	background: #333132;
+}
+
+ul {
+	list-style:none;
+}
+
+h1 {
+	color: #fff;
+}
+
+
+nav#primary {
+	z-index: 99900;
+	position: fixed;
+	top: 50%;
+	right: 16px;
+	margin-top: -40px;
+}
+nav#primary li {
+	position: relative;
+	height: 20px;
+}
+nav#primary a {
+	display: block;
+	width: 20px;
+	height: 20px;
+	text-indent: -9999px;
+	background: transparent url('../images/nav-dot.png') 4px 4px no-repeat;
+}
+nav#primary a:hover, nav#primary a.active {
+	background: transparent url('../images/nav-dot.png') 4px -16px no-repeat;
+}
+nav#primary h1 {
+	position: absolute;
+	right: 22px;
+	top: -7px;
+	display: none;
+	padding: 4px 20px 4px 7px;;
+	color: #fff;
+	white-space: nowrap;
+	background: transparent url('../images/nav-arrow.png') 100% 50% no-repeat;
+	font-weight:normal;
+	}
+nav.next-prev {
+	margin: 30px 0 0 0;
+	}
+	a.prev,
+	a.next {
+		display: block;
+		width: 70px;
+		height:70px;
+		text-indent: -9999px;
+		}
+	a.prev {
+		margin: 0 auto 5px auto;
+		background: transparent url('../images/scroll-up.png') 0 0 no-repeat;
+		}
+	a.next {
+		margin: 5px auto 0 auto;
+		background: transparent url('../images/scroll-down.png') 0 0 no-repeat;
+		}
+#third a.next {
+		margin: 5px auto 0 auto;
+		background: transparent url('../images/scroll-down-brown.png') 0 0 no-repeat;
+		}
+article h2 { }
+
+.story { height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto;}
+.address {
+}
+
+#first { background-size:cover; background: url(../images/night.jpg) 50% 0 no-repeat fixed; }
+#second { background: url(../images/metreon.jpg) 50% 0 no-repeat fixed; }
+#third { background: url(../images/bg_tickets.png) 50% 0 no-repeat fixed; }
+#fourth { background: url(../images/bg_staythenight.png) 50% 0 no-repeat fixed; }
+#fifth-section { background: url(../images/bg_wknd.png) 50% bottom no-repeat fixed; }
+
+/* Introduction */
+#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article p,
+#first article a { color: #ccc; }
+#first article a { text-decoration: underline; }
+#first article a:hover { color: #fff; }
+
+/* Venue */
+#second { padding: 50px 0;}
+#second .blackbox { margin-top:70px; background:black; height:100%; color: #fff; width: 400px; margin-left: 100px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+#second .bbox { color: #fff; width: 300px; margin-left: 100px; padding: 10px 20px; }
+
+#second article p { margin-bottom: 25px; width:400px; }
+#second article a { color: #ff0;}
+
+
+/* Ticket and Transport */
+#third article {  padding: 10px 20px; margin: 80px 0 0 58%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#third article p {color:#42210B;  width: 350px; margin-bottom: 25px; }
+#tickets { background: url(../images/tickets.png) transparent 30px 30px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+/* Stay the Night */
+#fourth article {  margin-top:220px; margin-left: 35%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
+#fourth article p { width: 350px; margin-top: 25px; }
+#moon { background: url(../images/moonstars.png) transparent no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+/* Make it a Weekend */
+#fifth { padding: 50px 0;
+}
+
+/*#fifth .whitebox { background:white; height:100%; color: #42210B; width: 445px; margin-left: 100px; margin-top:200px; padding: 10px 20px; border: 1px solid rgba(150,150,150,0.1); }
+*/
+#fifth {  background:white; padding: 10px 20px; margin: 400px 0 0 100px; width:445px; line-height: 1.5em; color: #42210B; position: absolute; top: 0; }
+
+#fifth a {color:#EA3939; text-decoration:none;font-weight:bolder;}
+#fifth a:hover {color:#ED7474;}
+#fifth ul {margin-top:20px;}
+#fifth li { 
+	list-style:none;
+	padding-top:5px;
+	padding-bottom:5px;
+	border-bottom:1px solid #F7EDE4;
+	margin-left:-20px;
+	}
+#bridge { background: url(../images/bridge.png) transparent no-repeat fixed; min-height: 1100px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+
+/* FAQ */
+
+#faq {
+	position:fixed;
+	right:10px;
+	top:10px;
+	z-index: 99901;	
+}
+
+/* the overlayed element */
+.simple_overlay {
+ 
+    /* must be initially hidden */
+    display:none;
+ 
+    /* place overlay on top of other elements */
+    z-index:10000;
+ 
+    /* styling */
+    background-color:black;
+	opacity:.9;
+	color:white;
+ 	padding:20px;
+    width:700px;
+    min-height:200px;
+ 
+    /* CSS3 styling for latest browsers */
+    -moz-box-shadow:0 0 90px 5px #000;
+    -webkit-box-shadow: 0 0 90px #000;
+}
+ 
+/* close button positioned on upper right corner */
+.simple_overlay .close {
+    background-image:url(http://jquerytools.org/media/img/overlay/close.png);
+    position:absolute;
+    right:-15px;
+    top:-15px;
+    cursor:pointer;
+    height:35px;
+    width:35px;
+}
