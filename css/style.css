@@ -8,6 +8,12 @@ ul {
 
 h1 {
 	color: #fff;
+	font-family:"Noteworthy",Times,serif;
+	font-size:50pt;
+	font-weight:normal;
+	margin: 0 0 .5em;
+	vertical-align: baseline;
+	text-align: center;
 }
 
 
@@ -71,10 +77,10 @@ article h2 { }
 .address {
 }
 
-#first { background-size:cover; background: url(../images/night.jpg) 50% 0 no-repeat fixed; }
-#second { background: url(../images/metreon.jpg) 50% 0 no-repeat fixed; }
-#third { background: url(../images/bg_tickets.png) 50% 0 no-repeat fixed; }
-#fourth { background: url(../images/bg_staythenight.png) 50% 0 no-repeat fixed; }
+#first { background-size:cover; background: url(../images/metreon.jpg) 50% 0 no-repeat fixed; }
+#second { background: url(../images/tron.jpg) 50% 0 no-repeat fixed; }
+#third { background: url(../images/night.jpg) 50% 0 no-repeat fixed; }
+#fourth { background: url(../images/westin.jpg) 50% 0 no-repeat fixed; }
 #fifth-section { background: url(../images/bg_wknd.png) 50% bottom no-repeat fixed; }
 
 /* Introduction */
@@ -95,12 +101,14 @@ article h2 { }
 
 /* Ticket and Transport */
 #third article {  padding: 10px 20px; margin: 80px 0 0 58%; line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#third article p {color:#42210B;  width: 350px; margin-bottom: 25px; }
-#tickets { background: url(../images/tickets.png) transparent 30px 30px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
+#third article p {color:#fff;  width: 350px; margin-bottom: 25px; font-size: 12pt; }
+#tickets { background: url(../images/tickets4.png) transparent 20px 20px no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
 
 /* Stay the Night */
-#fourth article {  margin-top:220px; margin-left: 35%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #fff; position: absolute; top: 0; }
-#fourth article p { width: 350px; margin-top: 25px; }
+#fourth .blackbox { margin-top:70px; background:black; height:100%; color: #fff; width: 400px; margin-left: 100px; padding: 10px 20px; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; box-shadow: 0 0 25px rgba(0,0,0,0.3); border: 1px solid rgba(150,150,150,0.1); }
+
+#fourth article {  margin-top:220px; margin-left: 35%; text-shadow: 0 -1px 0 rgba(0,0,0,0.5); line-height: 1.5em; color: #F8FAEB; position: absolute; top: 0; }
+#fourth article p { width: 350px; margin-top: 25px; color: #F8FAEB; font-size: 12pt;}
 #moon { background: url(../images/moonstars.png) transparent no-repeat fixed; min-height: 1000px; padding: 0; margin: 0; width: 100%; max-width: 1920px; position: relative; margin: 0 auto; }
 
 /* Make it a Weekend */
