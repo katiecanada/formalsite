@@ -164,3 +164,11 @@ article h2 { }
     height:35px;
     width:35px;
 }
+
+#countdown{
+	color:white;
+	font-size: 30pt;
+	text-align: center;
+	font-family:"Noteworthy",Times,serif;
+	font-weight: bold;
+}
