@@ -78,7 +78,7 @@ article h2 { }
 #fifth-section { background: url(../images/bg_wknd.png) 50% bottom no-repeat fixed; }
 
 /* Introduction */
-#first article { width: 100%; top: 300px; position: absolute; text-align: center; }
+#first article { width: 100%; top: 130px; position: absolute; text-align: center; }
 #first article p,
 #first article a { color: #ccc; }
 #first article a { text-decoration: underline; }
@@ -167,7 +167,7 @@ article h2 { }
 
 #countdown{
 	color:white;
-	font-size: 30pt;
+	font-size: 40pt;
 	text-align: center;
 	font-family:"Noteworthy",Times,serif;
 	font-weight: bold;
